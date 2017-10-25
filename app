@@ -1,6 +1,5 @@
 #! /bin/bash
 TYPE=$1
-APP_DIR=$APP_DIR
 case $TYPE in
 	"conf" | "config")
 		echo $APP_DIR/config/;;
@@ -52,7 +51,6 @@ case $TYPE in
 		echo $APP_DIR/lib/tasks;;
 	"t" | "test")
 		echo $APP_DIR/spec;;
-	"-h" | "--help")
 	*)
 		echo $APP_DIR/;;
 esac

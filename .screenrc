@@ -1,0 +1,28 @@
+defscrollback 2000
+
+escape ^Jj
+
+startup_message off
+
+shelltitle "$ |bash"
+hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
+
+term xterm-256color
+
+defutf8 on
+defencoding utf8
+encoding utf-8 utf-8
+
+bind n screen
+bind h prev
+bind j next
+bind c copy
+bind p paste .
+bind k scrollback
+
+autodetach on
+
+screen
+screen
+screen
+

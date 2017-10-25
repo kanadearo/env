@@ -1,0 +1,32 @@
+"vunlde.vimÇ≈ä«óùÇµÇƒÇÈpluginÇì«Ç›çûÇﬁ
+"
+set nocompatible
+filetype off
+
+if has('vim_starting')
+	set runtimepath+=~/users/gotomo/.vim/neobundle.vim
+
+	call neobundle#rc(expand('~/users/gotomo/.bundle'))
+endif
+
+NeoBundle 'http://github.com/Shougo/neocomplcache.git'
+NeoBundle 'http://github.com/Shougo/unite.vim.git'
+NeoBundle 'http://github.com/h1mesuke/unite-outline'
+NeoBundle 'http://github.com/tpope/vim-surround.git'
+NeoBundle 'http://github.com/thinca/vim-quickrun.git'
+NeoBundle 'http://github.com/h1mesuke/vim-alignta.git'
+NeoBundle 'http://github.com/vim-scripts/taglist.vim.git'
+NeoBundle 'http://github.com/tpope/vim-fugitive.git'
+NeoBundle 'http://github.com/mileszs/ack.vim.git'
+NeoBundle 'http://github.com/kien/ctrlp.vim'
+NeoBundle 'http://github.com/vim-perl/vim-perl'
+NeoBundle 'http://github.com/stephpy/vim-yaml'
+NeoBundle 'http://github.com/tsukkee/unite-tag'
+NeoBundle 'http://github.com/scrooloose/syntastic'
+"NeoBundle 'http://github.com/mattn/perlvalidate-vim.git'
+
+"NeoBundle 'http://github.com/Shougo/vimproc.git'
+"NeoBundle 'http://github.com/Shougo/vimshell.git'
+
+filetype plugin on
+filetype indent on
