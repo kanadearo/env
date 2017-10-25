@@ -1,0 +1,15 @@
+VimClojure
+neobundle.vim
+neocomplcache
+neomru.vim
+neosnippet
+neosnippet-snippets
+rubocop
+switch.vim
+syntastic
+unite-rails
+unite.vim
+vim-endwise
+vim-rails
+vim-slime
+vimshell
